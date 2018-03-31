@@ -1,0 +1,30 @@
+{
+    "name": "izayoi256/keccak",
+    "description": "Pure PHP implementation of Keccak with PHP 5.3+ support",
+    "homepage": "https://github.com/izayoi256/keccak",
+    "keywords": [
+        "keccak",
+        "hash",
+        "nem"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "izayoi256",
+            "email": "qwert.izayoi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.3|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "satooshi/php-coveralls": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "izayoi256\\": "src/"
+        }
+    }
+}
